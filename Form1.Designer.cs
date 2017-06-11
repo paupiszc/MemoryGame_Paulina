@@ -51,6 +51,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.CardsHolder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DupCard8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Card8)).BeginInit();
@@ -101,6 +102,7 @@
             this.DupCard8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard8.TabIndex = 15;
             this.DupCard8.TabStop = false;
+            this.DupCard8.Tag = "8";
             this.DupCard8.Click += new System.EventHandler(this.DupCard8_Click);
             // 
             // Card8
@@ -111,6 +113,7 @@
             this.Card8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card8.TabIndex = 14;
             this.Card8.TabStop = false;
+            this.Card8.Tag = "8";
             this.Card8.Click += new System.EventHandler(this.Card8_Click);
             // 
             // DupCard7
@@ -121,6 +124,7 @@
             this.DupCard7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard7.TabIndex = 13;
             this.DupCard7.TabStop = false;
+            this.DupCard7.Tag = "7";
             this.DupCard7.Click += new System.EventHandler(this.DupCard7_Click);
             // 
             // Card7
@@ -131,6 +135,7 @@
             this.Card7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card7.TabIndex = 12;
             this.Card7.TabStop = false;
+            this.Card7.Tag = "7";
             this.Card7.Click += new System.EventHandler(this.Card7_Click);
             // 
             // DupCard6
@@ -141,6 +146,7 @@
             this.DupCard6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard6.TabIndex = 11;
             this.DupCard6.TabStop = false;
+            this.DupCard6.Tag = "6";
             this.DupCard6.Click += new System.EventHandler(this.DupCard6_Click);
             // 
             // Card6
@@ -151,6 +157,7 @@
             this.Card6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card6.TabIndex = 10;
             this.Card6.TabStop = false;
+            this.Card6.Tag = "6";
             this.Card6.Click += new System.EventHandler(this.Card6_Click);
             // 
             // DupCard5
@@ -161,6 +168,7 @@
             this.DupCard5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard5.TabIndex = 9;
             this.DupCard5.TabStop = false;
+            this.DupCard5.Tag = "5";
             this.DupCard5.Click += new System.EventHandler(this.DupCard5_Click);
             // 
             // Card5
@@ -171,6 +179,7 @@
             this.Card5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card5.TabIndex = 8;
             this.Card5.TabStop = false;
+            this.Card5.Tag = "5";
             this.Card5.Click += new System.EventHandler(this.Card5_Click);
             // 
             // DupCard4
@@ -181,6 +190,7 @@
             this.DupCard4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard4.TabIndex = 7;
             this.DupCard4.TabStop = false;
+            this.DupCard4.Tag = "4";
             this.DupCard4.Click += new System.EventHandler(this.DupCard4_Click);
             // 
             // Card4
@@ -191,6 +201,7 @@
             this.Card4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card4.TabIndex = 6;
             this.Card4.TabStop = false;
+            this.Card4.Tag = "4";
             this.Card4.Click += new System.EventHandler(this.Card4_Click);
             // 
             // DupCard3
@@ -201,6 +212,7 @@
             this.DupCard3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard3.TabIndex = 5;
             this.DupCard3.TabStop = false;
+            this.DupCard3.Tag = "3";
             this.DupCard3.Click += new System.EventHandler(this.DupCard3_Click);
             // 
             // Card3
@@ -211,6 +223,7 @@
             this.Card3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card3.TabIndex = 4;
             this.Card3.TabStop = false;
+            this.Card3.Tag = "3";
             this.Card3.Click += new System.EventHandler(this.Card3_Click);
             // 
             // DupCard2
@@ -221,6 +234,7 @@
             this.DupCard2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard2.TabIndex = 3;
             this.DupCard2.TabStop = false;
+            this.DupCard2.Tag = "2";
             this.DupCard2.Click += new System.EventHandler(this.DupCard2_Click);
             // 
             // Card2
@@ -231,6 +245,7 @@
             this.Card2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card2.TabIndex = 2;
             this.Card2.TabStop = false;
+            this.Card2.Tag = "2";
             this.Card2.Click += new System.EventHandler(this.Card2_Click);
             // 
             // DupCard1
@@ -241,6 +256,7 @@
             this.DupCard1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard1.TabIndex = 1;
             this.DupCard1.TabStop = false;
+            this.DupCard1.Tag = "1";
             this.DupCard1.Click += new System.EventHandler(this.DupCard1_Click);
             // 
             // Card1
@@ -251,6 +267,7 @@
             this.Card1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card1.TabIndex = 0;
             this.Card1.TabStop = false;
+            this.Card1.Tag = "1";
             this.Card1.Click += new System.EventHandler(this.Card1_Click);
             // 
             // ScoreLabel
@@ -292,6 +309,11 @@
             // 
             this.timer2.Interval = 1000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Interval = 500;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // OknoGry
             // 
@@ -355,6 +377,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
     }
 }
 
