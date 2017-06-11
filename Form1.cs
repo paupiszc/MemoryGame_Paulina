@@ -26,6 +26,10 @@ namespace MemoryGame_Paulina
 
         private void OknoGry_Load(object sender, EventArgs e)
         {
+            foreach (PictureBox picture in CardsHolder.Controls)
+            {
+                picture.Enabled = false;
+            }
             timer2.Start();
             timer1.Start();
             Card1.Image = Properties.Resources._01;
@@ -52,6 +56,8 @@ namespace MemoryGame_Paulina
             timer1.Stop();
             foreach (PictureBox picture in CardsHolder.Controls)
             {
+                picture.Enabled = true;
+                picture.Cursor = Cursors.Hand;
                 picture.Image = Properties.Resources.tlo;
             }
         }
@@ -146,6 +152,9 @@ namespace MemoryGame_Paulina
         {
             DupCard8.Image = Properties.Resources._082;
         }
-#endregion
+
+        #endregion
+
+       
     }
 }
