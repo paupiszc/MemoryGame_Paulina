@@ -96,6 +96,7 @@
             this.Card1.Location = new System.Drawing.Point(13, 13);
             this.Card1.Name = "Card1";
             this.Card1.Size = new System.Drawing.Size(100, 100);
+            this.Card1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card1.TabIndex = 0;
             this.Card1.TabStop = false;
             // 
@@ -104,6 +105,7 @@
             this.DupCard1.Location = new System.Drawing.Point(119, 13);
             this.DupCard1.Name = "DupCard1";
             this.DupCard1.Size = new System.Drawing.Size(100, 100);
+            this.DupCard1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard1.TabIndex = 1;
             this.DupCard1.TabStop = false;
             // 
@@ -112,6 +114,7 @@
             this.Card2.Location = new System.Drawing.Point(225, 13);
             this.Card2.Name = "Card2";
             this.Card2.Size = new System.Drawing.Size(100, 100);
+            this.Card2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card2.TabIndex = 2;
             this.Card2.TabStop = false;
             // 
@@ -120,6 +123,7 @@
             this.DupCard2.Location = new System.Drawing.Point(331, 13);
             this.DupCard2.Name = "DupCard2";
             this.DupCard2.Size = new System.Drawing.Size(100, 100);
+            this.DupCard2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard2.TabIndex = 3;
             this.DupCard2.TabStop = false;
             // 
@@ -128,6 +132,7 @@
             this.DupCard4.Location = new System.Drawing.Point(331, 119);
             this.DupCard4.Name = "DupCard4";
             this.DupCard4.Size = new System.Drawing.Size(100, 100);
+            this.DupCard4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard4.TabIndex = 7;
             this.DupCard4.TabStop = false;
             // 
@@ -136,6 +141,7 @@
             this.Card4.Location = new System.Drawing.Point(225, 119);
             this.Card4.Name = "Card4";
             this.Card4.Size = new System.Drawing.Size(100, 100);
+            this.Card4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card4.TabIndex = 6;
             this.Card4.TabStop = false;
             // 
@@ -144,6 +150,7 @@
             this.DupCard3.Location = new System.Drawing.Point(119, 119);
             this.DupCard3.Name = "DupCard3";
             this.DupCard3.Size = new System.Drawing.Size(100, 100);
+            this.DupCard3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard3.TabIndex = 5;
             this.DupCard3.TabStop = false;
             // 
@@ -152,6 +159,7 @@
             this.Card3.Location = new System.Drawing.Point(13, 119);
             this.Card3.Name = "Card3";
             this.Card3.Size = new System.Drawing.Size(100, 100);
+            this.Card3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card3.TabIndex = 4;
             this.Card3.TabStop = false;
             // 
@@ -160,6 +168,7 @@
             this.DupCard6.Location = new System.Drawing.Point(331, 225);
             this.DupCard6.Name = "DupCard6";
             this.DupCard6.Size = new System.Drawing.Size(100, 100);
+            this.DupCard6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard6.TabIndex = 11;
             this.DupCard6.TabStop = false;
             // 
@@ -168,6 +177,7 @@
             this.Card6.Location = new System.Drawing.Point(225, 225);
             this.Card6.Name = "Card6";
             this.Card6.Size = new System.Drawing.Size(100, 100);
+            this.Card6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card6.TabIndex = 10;
             this.Card6.TabStop = false;
             // 
@@ -176,6 +186,7 @@
             this.DupCard5.Location = new System.Drawing.Point(119, 225);
             this.DupCard5.Name = "DupCard5";
             this.DupCard5.Size = new System.Drawing.Size(100, 100);
+            this.DupCard5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard5.TabIndex = 9;
             this.DupCard5.TabStop = false;
             // 
@@ -184,6 +195,7 @@
             this.Card5.Location = new System.Drawing.Point(13, 225);
             this.Card5.Name = "Card5";
             this.Card5.Size = new System.Drawing.Size(100, 100);
+            this.Card5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card5.TabIndex = 8;
             this.Card5.TabStop = false;
             // 
@@ -192,6 +204,7 @@
             this.DupCard8.Location = new System.Drawing.Point(331, 331);
             this.DupCard8.Name = "DupCard8";
             this.DupCard8.Size = new System.Drawing.Size(100, 100);
+            this.DupCard8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard8.TabIndex = 15;
             this.DupCard8.TabStop = false;
             // 
@@ -200,6 +213,7 @@
             this.Card8.Location = new System.Drawing.Point(225, 331);
             this.Card8.Name = "Card8";
             this.Card8.Size = new System.Drawing.Size(100, 100);
+            this.Card8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card8.TabIndex = 14;
             this.Card8.TabStop = false;
             // 
@@ -208,6 +222,7 @@
             this.DupCard7.Location = new System.Drawing.Point(119, 331);
             this.DupCard7.Name = "DupCard7";
             this.DupCard7.Size = new System.Drawing.Size(100, 100);
+            this.DupCard7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DupCard7.TabIndex = 13;
             this.DupCard7.TabStop = false;
             // 
@@ -216,6 +231,7 @@
             this.Card7.Location = new System.Drawing.Point(13, 331);
             this.Card7.Name = "Card7";
             this.Card7.Size = new System.Drawing.Size(100, 100);
+            this.Card7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Card7.TabIndex = 12;
             this.Card7.TabStop = false;
             // 
