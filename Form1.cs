@@ -15,8 +15,9 @@ namespace MemoryGame_Paulina
         //Zmienne
         //int score = 0; //Wynik
         Random Location = new Random(); //Wybiera przypadkową wartość X i Y i przydziela nową lokalizacje każdej karcie
-        List<int> X = new List<int>(); //wartosc X lub kazdego picturebox
-        List<int> Y = new List<int>(); //wartosc Y lub kazdego picturebox
+        //List<int> X = new List<int>(); //wartosc X lub kazdego picturebox
+        //List<int> Y = new List<int>(); //wartosc Y lub kazdego picturebox
+        List<Point> points = new List<Point>(); //Lista przechowuje punkty za karty
         bool again = false; //Zagraj ponownie lub nie
         PictureBox PendingImage1; //Przechowuje pierwsza kartę odwróconą
         PictureBox PendingImage2; // Drugą ...
@@ -29,10 +30,20 @@ namespace MemoryGame_Paulina
 
         private void OknoGry_Load(object sender, EventArgs e)
         {
+            label1.Text = "5";
             foreach (PictureBox picture in CardsHolder.Controls)
             {
                 picture.Enabled = false;
+                points.Add(picture.Location);
             }
+            foreach(PictureBox picture in CardsHolder.Controls)
+            {
+                int next = Location.Next(points.Count);
+                Point p = points[next];
+                picture.Location = p;
+                points.Remove(p);
+            }
+
             timer2.Start();
             timer1.Start();
             Card1.Image = Properties.Resources._01;
@@ -533,6 +544,9 @@ namespace MemoryGame_Paulina
             PendingImage2 = null;
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OknoGry_Load(sender, e);
+        }
     }
 }
