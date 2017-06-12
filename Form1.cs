@@ -91,7 +91,8 @@ namespace MemoryGame_Paulina
             {
                 if(PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -115,7 +116,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -139,7 +141,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -163,7 +166,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -187,7 +191,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -211,7 +216,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -235,7 +241,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -259,7 +266,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -283,7 +291,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -307,7 +316,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -331,7 +341,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -355,7 +366,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -379,7 +391,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -403,7 +416,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -426,7 +440,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
@@ -449,7 +464,8 @@ namespace MemoryGame_Paulina
             {
                 if (PendingImage1.Tag == PendingImage2.Tag)
                 {
-
+                    PendingImage1 = null;
+                    PendingImage2 = null;
                 }
                 else
                 {
