@@ -31,7 +31,7 @@ namespace MemoryGame_Paulina
         private void OknoGry_Load(object sender, EventArgs e)
         {
             label1.Text = "5";
-            label4.Text = "65";
+            label4.Text = "35";
             foreach (PictureBox picture in CardsHolder.Controls)
             {
                 picture.Enabled = false;
@@ -561,9 +561,11 @@ namespace MemoryGame_Paulina
             if(time == 0)
             {
                 timer4.Stop();
-                new Form2().Show();
+                new Form2().ShowDialog();
                
             }
         }
+
+        
     }
 }
