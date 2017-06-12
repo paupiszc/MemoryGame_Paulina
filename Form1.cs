@@ -31,6 +31,7 @@ namespace MemoryGame_Paulina
         private void OknoGry_Load(object sender, EventArgs e)
         {
             label1.Text = "5";
+            label4.Text = "60";
             foreach (PictureBox picture in CardsHolder.Controls)
             {
                 picture.Enabled = false;
@@ -46,6 +47,9 @@ namespace MemoryGame_Paulina
 
             timer2.Start();
             timer1.Start();
+            timer4.Start();
+            
+            
             Card1.Image = Properties.Resources._01;
             DupCard1.Image = Properties.Resources._01;
             Card2.Image = Properties.Resources._02;
@@ -547,6 +551,19 @@ namespace MemoryGame_Paulina
         private void button1_Click(object sender, EventArgs e)
         {
             OknoGry_Load(sender, e);
+        }
+
+        private void timer4_Tick(object sender, EventArgs e)
+        {
+            int time = Convert.ToInt32(label4.Text);
+            time = time-1;
+            label4.Text = Convert.ToString(time);
+            if(time == 0)
+            {
+                timer4.Stop();
+                new Form2().Show();
+               
+            }
         }
     }
 }
