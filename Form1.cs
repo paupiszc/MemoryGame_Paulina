@@ -13,7 +13,7 @@ namespace MemoryGame_Paulina
     public partial class OknoGry : Form
     {
         //Zmienne
-        int score = 0; //Wynik
+        //int score = 0; //Wynik
         Random Location = new Random(); //Wybiera przypadkową wartość X i Y i przydziela nową lokalizacje każdej karcie
         List<int> X = new List<int>(); //wartosc X lub kazdego picturebox
         List<int> Y = new List<int>(); //wartosc Y lub kazdego picturebox
@@ -93,6 +93,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card1.Enabled = false;
+                    DupCard1.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -118,6 +121,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card1.Enabled = false;
+                    DupCard1.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -143,6 +149,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card2.Enabled = false;
+                    DupCard2.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -168,6 +177,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card2.Enabled = false;
+                    DupCard2.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -193,6 +205,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card3.Enabled = false;
+                    DupCard3.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -218,6 +233,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card3.Enabled = false;
+                    DupCard3.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -243,6 +261,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card4.Enabled = false;
+                    DupCard4.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -268,6 +289,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card4.Enabled = false;
+                    DupCard4.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -293,6 +317,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card5.Enabled = false;
+                    DupCard5.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -318,6 +345,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card5.Enabled = false;
+                    DupCard5.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -343,6 +373,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card6.Enabled = false;
+                    DupCard6.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -368,6 +401,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card6.Enabled = false;
+                    DupCard6.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -393,6 +429,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card7.Enabled = false;
+                    DupCard7.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -418,6 +457,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card7.Enabled = false;
+                    DupCard7.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -442,6 +484,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card8.Enabled = false;
+                    DupCard8.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -466,6 +511,9 @@ namespace MemoryGame_Paulina
                 {
                     PendingImage1 = null;
                     PendingImage2 = null;
+                    Card8.Enabled = false;
+                    DupCard8.Enabled = false;
+                    ScoreCounter.Text = Convert.ToString(Convert.ToInt32(ScoreCounter.Text) + 10);
                 }
                 else
                 {
@@ -484,5 +532,7 @@ namespace MemoryGame_Paulina
             PendingImage1 = null;
             PendingImage2 = null;
         }
+
+       
     }
 }
